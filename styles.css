@@ -1,0 +1,52 @@
+html 
+	{ 
+	height: 100% 
+	}
+body 
+	{ 
+	height: 100%;
+	margin: 0.3%;
+	padding: 0.3%;
+	background-color: black !important
+	}
+#basemenu 
+	{
+	text-align: center;
+	font-style: italic;
+	color: red;
+	font-family: "Comic Sans" !important;
+	float: left;
+	height:99.4%;
+	width: 50%;
+	background-image: url("bg.jpg");
+	overflow: hidden
+	}
+	#articles
+	{
+	font-style: italic;
+	float: left;
+	height: 100%;
+	width: 100%;
+	background-image: url("bg.jpg");
+	font-family: "Times New Roman";
+	font-size: 20px;
+	color: red;
+	text-align: center
+	}
+#container
+	{
+	background-color: grey;
+	opacity: 0.7;
+	}
+#line
+	{
+	height: 1%;
+	background-color: black;
+	width: 100%}
+#map-canvas
+	{
+	top: 0%;
+	left: 1%;
+	height: 99.4%;
+	width: 49% 
+	}

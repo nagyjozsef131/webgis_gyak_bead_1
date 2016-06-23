@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>north</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCY1ORK_tLC5eHAqT4mThntN4krRpC01Wk&sensor=true">
+    </script>
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="initialize.js" type="text/javascript"></script>
+	<script src="init_varos.js" type="text/javascript"></script>
+	<script src="init_finland.js" type="text/javascript"></script>
+	<script src="initDania.js" type="text/javascript"></script>
+	
+    <script type="text/javascript">
+    
+	
+	</script>
+	
+	
+  </head>
+  <body onload="initialize()" >
+	<div id="basemenu">
+	<h2>Welcome to the NORTH!</h2>
+  <button onclick="initialize()" type="button" class="btn btn-primary">Kezdőlap</button>
+  <button onclick="initorszag()" type="button" class="btn btn-primary">Államok</button>
+  <button onclick="init_varos()" type="button" class="btn btn-primary">Városok</button>
+  <button onclick="initDania()" type="button" class="btn btn-primary">Dánia népessége</button>
+  <button  onclick="initMap()" type="button" class="btn btn-primary">Finnország népsűrűség</button>
+		<div id=line>
+		</div>
+		<div id="articles">
+			<div id="container">
+			</div>
+		</div>
+	</div>
+    <div id="map-canvas">
+	</div>
+	
+  </body>
+</html>
+
